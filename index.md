@@ -9,9 +9,10 @@ I like the internet, Java on servers, JavaScript with AngularJS on clients, and 
 ### Entries
 
 Some notes or pages I've written. They're available on this site:
-* [Serverless Development Environment](http://hileco.com/entries/serverless-development-environment)<br/>
+* [Serverless Development Environment](/entries/serverless-development-environment)<br/>
   How to set up a local [Kubernetes](https://kubernetes.io/) & [Fission](https://github.com/fission/fission) installation on an Ubuntu server.
-
+* [Infosec Development Machine](/entries/infosec-development-machine)<br/>
+  How my home laptop is set up.
 
 ### Repositories
 
