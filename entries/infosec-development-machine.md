@@ -31,6 +31,8 @@ platform: linux
 repo_directory: /root/Downloads/tldr
 EOF
 tldr reindex
+pip install jupyterlab
+jupyter serverextension enable --py jupyterlab --sys-prefix
 ```
 
 Install FireFox addons:
