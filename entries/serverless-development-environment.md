@@ -6,13 +6,13 @@ and [Kubectl](https://kubernetes.io/docs/user-guide/kubectl/), on top of [Kubern
 through [Minikube](https://github.com/kubernetes/minikube), on top of native
 [Docker in Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/).
 
-Hosting by [DigitalOcean](https://www.digitalocean.com). I picked a machine with a recent Ubuntu OS.
+I picked a machine with a recent Ubuntu OS on [DigitalOcean](https://www.digitalocean.com).
 
 ## Install Docker
 
 To quote [Wikipedia](https://en.wikipedia.org/wiki/Docker_(software));
 Docker uses the resource isolation features of the Linux kernel such as cgroups and kernel
-namespaces, and a union-capable file system such as OverlayFS and others[8] to allow independent "containers" to
+namespaces, and a union-capable file system such as OverlayFS and others to allow independent "containers" to
 run within a single Linux instance, avoiding the overhead of starting and maintaining virtual machines (VMs).
 
 ```bash
