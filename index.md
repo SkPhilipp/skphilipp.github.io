@@ -6,6 +6,13 @@ I like the internet, Java on servers, JavaScript with AngularJS on clients, and 
 * [Github](https://github.com/SkPhilipp)
 * [StackOverflow](https://stackoverflow.com/users/1066946)
 
+### Entries
+
+Some notes or pages I've written. They're available on this site:
+* [Serverless Development Environment](http://hileco.com/entries/serverless-development-environment)<br/>
+  How to set up a local [Kubernetes](https://kubernetes.io/) & [Fission](https://github.com/fission/fission) installation on an Ubuntu server.
+
+
 ### Repositories
 
 Repositories I created are listed here, in order of practical usefulness.
