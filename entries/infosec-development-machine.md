@@ -1,11 +1,19 @@
 # Infosec Development Machine
 
+## Tools
+
+- Everything on [Kali Linux](https://www.kali.org/downloads/)
+- [howdoi](http://tldr.sh/) command line help utility
+- [tldr](http://tldr.sh/) command line help utility
+- [jupyter lab](https://github.com/jupyterlab/jupyterlab) for taking notes<br/>
+  `jupyter lab --kernel=metakernel_bash`
+
 ## OS Installation
 
 To create a Bootable USB from a Windows machine:
-1. Get Transmission https://transmissionbt.com/download/
-2. Get Kali .torrent https://www.kali.org/downloads/
-3. Get Win32 Disk Imager https://launchpad.net/win32-image-writer
+1. Get Transmission [https://transmissionbt.com/download/](https://transmissionbt.com/download/)
+2. Get Kali .torrent [https://www.kali.org/downloads/](https://www.kali.org/downloads/)
+3. Get Win32 Disk Imager [https://launchpad.net/win32-image-writer](https://launchpad.net/win32-image-writer)
 4. Use Win32 Disk Images to create a Bootable USB of the Kali ISO
 
 Plug in the Bootable USB and step through the non-GUI Install option
@@ -33,6 +41,8 @@ EOF
 tldr reindex
 pip install jupyterlab
 jupyter serverextension enable --py jupyterlab --sys-prefix
+pip install metakernel
+pip install metakernel_bash
 ```
 
 Install FireFox addons:
