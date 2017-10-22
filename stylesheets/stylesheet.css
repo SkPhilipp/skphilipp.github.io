@@ -9,6 +9,9 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+.page-header .btn {
+  display: none;
+}
 a {
   color: #1e6bb8;
   text-decoration: none;
