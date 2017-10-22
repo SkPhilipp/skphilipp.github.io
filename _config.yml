@@ -2,7 +2,7 @@ title: HILECO
 description: High level code
 google_analytics: UA-43676853-1
 show_downloads: true
-theme: jekyll-theme-midnight
+theme: jekyll-theme-cayman
 
 gems:
   - jekyll-mentions
