@@ -7,6 +7,7 @@
 - [tldr](http://tldr.sh/) command line help utility
 - [jupyter lab](https://github.com/jupyterlab/jupyterlab) for taking notes<br/>
   `jupyter lab --kernel=metakernel_bash`
+- TransmissionQT
 
 ## OS Installation
 
@@ -24,7 +25,6 @@ Plug in the Bootable USB and step through the non-GUI Install option
 echo 'deb http://http.kali.org/kali kali-rolling main non-free contrib' >> /etc/apt/sources.list
 apt-get update
 apt-get upgrade
-apt-get 
 apt --fix-broken install
 pip install howdoi
 pip install tldr
@@ -43,6 +43,7 @@ pip install jupyterlab
 jupyter serverextension enable --py jupyterlab --sys-prefix
 pip install metakernel
 pip install metakernel_bash
+apt-get install transmission-qt
 ```
 
 Install FireFox addons:
