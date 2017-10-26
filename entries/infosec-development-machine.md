@@ -3,6 +3,7 @@
 ## Tools
 
 - Everything on [Kali Linux](https://www.kali.org/downloads/)
+- Docker installation ([instructions for Kali](https://www.ptrace-security.com/2017/06/14/how-to-install-docker-on-kali-linux-2017-1/))
 - [howdoi](http://tldr.sh/) command line help utility
 - [tldr](http://tldr.sh/) command line help utility
 - [jupyter lab](https://github.com/jupyterlab/jupyterlab) for taking notes<br/>
