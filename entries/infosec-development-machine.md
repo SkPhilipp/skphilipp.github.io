@@ -7,7 +7,6 @@
 - [howdoi](http://tldr.sh/) command line help utility
 - [tldr](http://tldr.sh/) command line help utility
 - [jupyter lab](https://github.com/jupyterlab/jupyterlab) for taking notes<br/>
-  `jupyter lab --kernel=metakernel_bash`
 - TransmissionQT
 
 ## OS Installation
