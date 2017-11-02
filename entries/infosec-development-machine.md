@@ -41,8 +41,6 @@ EOF
 tldr reindex
 pip install jupyterlab
 jupyter serverextension enable --py jupyterlab --sys-prefix
-pip install metakernel
-pip install metakernel_bash
 apt-get install transmission-qt
 ```
 
