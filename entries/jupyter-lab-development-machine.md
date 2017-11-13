@@ -1,4 +1,4 @@
-# Jupyter Lab Machine
+# Jupyter Lab Development Machine
 
 ## Installation
 
