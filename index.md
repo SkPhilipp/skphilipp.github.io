@@ -13,6 +13,8 @@ Some notes or pages I've written. They're available on this site:
   How to set up a local [Kubernetes](https://kubernetes.io/) & [Fission](https://github.com/fission/fission) installation on an Ubuntu server.
 * [Infosec Development Machine](/entries/infosec-development-machine)<br/>
   How my home laptop is set up.
+* [Jupyter Lab Development Machine](/entries/jupyter-lab-development-machine)<br/>
+  How to set up a hosted [Jupyter Lab](https://github.com/jupyterlab/jupyterlab); a more IDE-like Jupyter Notebook.
 
 ### Repositories
 
