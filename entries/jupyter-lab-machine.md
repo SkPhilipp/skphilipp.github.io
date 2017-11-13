@@ -1,3 +1,6 @@
+# Jupyter Lab Machine
+
+## Installation
 
 Get Jupyter Lab with pip, create a separate user for hosting the process and add a default configuration. 
 
@@ -18,6 +21,9 @@ EOF
 exit
 ```
 
+You can now run `jupyter lab notebooks` from user `jupyterhost`, which will start Jupyter Lab on port 8080.
+
+## Autorun
 
 Configure Jupyter Lab to run on startup, and start it.
 
