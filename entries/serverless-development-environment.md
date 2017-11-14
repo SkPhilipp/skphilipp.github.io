@@ -1,4 +1,4 @@
-# Servlerless Development Environment
+# Serverless Development Environment
 
 Ever wanted to try out Serverless? This document will guide you through setting up [Nginx](https://nginx.org/en/)
 forwarding to [Fission](https://github.com/fission/fission) installed with [Helm](https://github.com/kubernetes/helm)
