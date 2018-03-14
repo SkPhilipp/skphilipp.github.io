@@ -27,7 +27,7 @@ c.NotebookApp.open_browser = False
 c.NotebookApp.token = ''
 # Format "<hash method>:<salt>:<hash>", with salt appeneded to password. The example represents password "memes".
 c.NotebookApp.password = u'sha1:faeeb4164638:80b264dcc5d723961c5f77a5b7efa20544116c0b'
-c.NotebookApp.ip = '*'
+c.NotebookApp.ip = '127.0.0.1'
 c.NotebookApp.port = 8080
 EOF
 exit
@@ -58,3 +58,30 @@ systemctl enable jupyter-lab
 systemctl start jupyter-lab
 ```
 
+## SSL offloading with Nginx
+
+Obviously you don't want to send your credentials or notebook over plaintext. I'm using Nginx with Certbot
+to perform SSL offloading, Nginx accepts all traffic on port 80 (HTTP) and 443 (HTTPS) and forwards it to Jupyter Lab.
+
+```bash
+apt-get install nginx
+apt-get install python-certbot-nginx
+ufw allow 'Nginx HTTP'
+cat > /etc/nginx/sites-available/default << EOF
+server {
+	listen 80;
+	server_name notes.gayret.nl;
+	location / {
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header Host      $http_post;
+                proxy_pass http://127.0.0.1:8080;
+        }
+}
+EOF
+# see https://github.com/certbot/certbot/issues/5405#issuecomment-356498627
+certbot --authenticator standalone \
+        --installer nginx \
+        --pre-hook "service nginx stop" \
+        --post-hook "service nginx start" \
+        -d notes.gayret.nl
+```
