@@ -70,7 +70,7 @@ ufw allow 'Nginx HTTP'
 cat > /etc/nginx/sites-available/default << EOF
 server {
 	listen 80;
-	server_name notes.gayret.nl;
+	server_name example.com;
 	location / {
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header Host      $http_post;
@@ -83,5 +83,5 @@ certbot --authenticator standalone \
         --installer nginx \
         --pre-hook "service nginx stop" \
         --post-hook "service nginx start" \
-        -d notes.gayret.nl
+        -d example.com
 ```
