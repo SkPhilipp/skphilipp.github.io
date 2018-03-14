@@ -78,6 +78,9 @@ server {
         }
 }
 EOF
+# note: this part is interactive
+#       nginx will have to be stopped and started because of an issue
+#       this command modifies your /etc/nginx/sites-available/default automatically
 # see https://github.com/certbot/certbot/issues/5405#issuecomment-356498627
 certbot --authenticator standalone \
         --installer nginx \
