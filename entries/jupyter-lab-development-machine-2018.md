@@ -76,6 +76,22 @@ server {
                 proxy_set_header Host      $host;
                 proxy_pass http://127.0.0.1:8080;
         }
+        location ~ /api/kernels/ {
+                proxy_pass            http://127.0.0.1:8080;
+                proxy_set_header      Host $host;
+                proxy_http_version    1.1;
+                proxy_set_header      Upgrade "websocket";
+                proxy_set_header      Connection "Upgrade";
+                proxy_read_timeout    86400;
+        }
+        location ~ /terminals/ {
+                proxy_pass            http://127.0.0.1:8080;
+                proxy_set_header      Host $host;
+                proxy_http_version    1.1;
+                proxy_set_header      Upgrade "websocket";
+                proxy_set_header      Connection "Upgrade";
+                proxy_read_timeout    86400;
+        }
 }
 EOF
 # note: this part is interactive
