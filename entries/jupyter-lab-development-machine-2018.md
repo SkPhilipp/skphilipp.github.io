@@ -35,6 +35,19 @@ exit
 
 You can now run `jupyter lab notebooks` from user `jupyter`, which will start Jupyter Lab on port 8080.
 
+## Installing the IJavaScript Kernel
+
+This installs the [IJavsScript Kernel](https://github.com/n-riesco/ijavascript) for Jupyter.
+
+```bash
+apt-get install npm
+npm install -g ijavascript
+ijsinstall
+systemctl restart jupyter-lab
+```
+
+Upon creating a new notebook after the restart, IJavaScript will be available as a notebook kernel. 
+
 ## Autorun
 
 Configure Jupyter Lab to run on startup, and start it.
