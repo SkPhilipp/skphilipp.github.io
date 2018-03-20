@@ -79,7 +79,6 @@ to perform SSL offloading, Nginx accepts all traffic on port 80 (HTTP) and 443 (
 ```bash
 apt-get install nginx
 apt-get install python-certbot-nginx
-ufw allow 'Nginx HTTP'
 cat > /etc/nginx/sites-available/default << EOF
 server {
 	listen 80;
