@@ -1,5 +1,3 @@
-## Me
-
 I'm Philipp Gayret; Experienced freelance software developer with a demonstrated history of working in information technology for a diverse portfolio of clients. Started scripting with Blizzard’s JASS, self-taught C++ and eventually moved on to Java for professional.software development.
 
 * [LinkedIn](http://www.linkedin.com/in/philippp)
