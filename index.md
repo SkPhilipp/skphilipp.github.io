@@ -1,6 +1,6 @@
 ## Me
 
-I like the internet, Java on servers, JavaScript with AngularJS on clients, and regular expressions.
+I'm Philipp Gayret; Experienced freelance software developer with a demonstrated history of working in information technology for a diverse portfolio of clients. Started scripting with Blizzard’s JASS, self-taught C++ and eventually moved on to Java for professional.software development.
 
 * [LinkedIn](http://www.linkedin.com/in/philippp)
 * [Github](https://github.com/SkPhilipp)
